@@ -1,0 +1,41 @@
+  /** primary **/
+   $primary: #3880ff;
+   $primary-rgb: rgb(56, 128, 255);
+   $primary-contrast: #ffffff;
+
+  /** secondary **/
+   $secondary: #3dc2ff;
+
+@media (prefers-color-scheme: dark) {
+  /*
+   * Dark Colors
+   * -------------------------------------------
+   */
+
+  body {
+      $primary: #428cff;
+  }
+
+  /*
+   * iOS Dark Theme
+   * -------------------------------------------
+   */
+
+  .ios body {
+    $background-color: #000000;
+  }
+
+  .ios ion-modal {
+    $background-color: #000000;
+  }
+
+
+  /*
+   * Material Design Dark Theme
+   * -------------------------------------------
+   */
+
+  .md body {
+    $background-color: #121212;
+  }
+}
