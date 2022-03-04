@@ -65,7 +65,8 @@
     ]
   },
   "devDependencies": {
-    "@capacitor/cli": "3.4.3"
+    "@capacitor/cli": "3.4.3",
+    "nth-check": ">=2.0.1"
   },
   "description": "An Ionic project"
 }
