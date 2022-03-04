@@ -1,0 +1,7 @@
+{
+  "name": "bluff-poker",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
