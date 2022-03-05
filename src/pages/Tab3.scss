@@ -1,6 +1,6 @@
-@import '../theme/variables';
+@use '../theme/_variables';
 
 .tab3 {
-    background-color: $primary-rgb;
-    color: $secondary;
+    background-color: variables.$primary-rgb;
+    color: variables.$secondary;
 }

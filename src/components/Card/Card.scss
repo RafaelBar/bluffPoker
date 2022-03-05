@@ -1,0 +1,52 @@
+@use '../../theme/_variables.scss';
+$card-padding: 8px;
+
+.card {
+    width: 90px;
+    height: 130px;
+    border-radius: 7px;
+    box-shadow: 1 1 1 1;
+    background-color: variables.$white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    label {
+        &.small {
+            font-size: 16px;
+        }
+
+        &.float {
+            position: absolute;
+            left: $card-padding;
+            top: $card-padding;
+        }
+
+        &.mirror {
+            bottom: $card-padding;
+            right: $card-padding;
+            transform: rotate(180deg);
+        }
+
+        &.large {
+            font-size: 74px;
+        }
+
+        &.hearts {
+            color: variables.$red;
+        }
+        
+        &.clovers {
+            color: variables.$black;
+        }
+        
+        &.tiles {
+            color: variables.$red
+        }
+        
+        &.pikes {
+            color: variables.$black;
+        }
+    }
+}

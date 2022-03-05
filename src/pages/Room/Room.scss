@@ -1,0 +1,8 @@
+@use '../../theme/_variables';
+
+.room {
+    background-image: url('../../../public/assets/table-bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
