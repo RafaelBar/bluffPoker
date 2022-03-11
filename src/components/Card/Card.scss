@@ -1,11 +1,13 @@
 @use '../../theme/_variables.scss';
-$card-padding: 8px;
+$card-padding: 6px;
+$card-shadow-from: rgba(0,0,0,0.19);
+$card-shadow-to:  rgba(0,0,0,0.23);
 
 .card {
-    width: 90px;
-    height: 130px;
+    width: 70px;
+    height: 105px;
     border-radius: 7px;
-    box-shadow: 1 1 1 1;
+    box-shadow: 0 10px 20px $card-shadow-from, 0 6px 6px $card-shadow-to;
     background-color: variables.$white;
     display: flex;
     justify-content: center;
@@ -30,22 +32,22 @@ $card-padding: 8px;
         }
 
         &.large {
-            font-size: 74px;
+            font-size: 60px;
         }
 
         &.hearts {
             color: variables.$red;
         }
         
-        &.clovers {
+        &.clubs {
             color: variables.$black;
         }
         
-        &.tiles {
+        &.diams {
             color: variables.$red
         }
         
-        &.pikes {
+        &.spades {
             color: variables.$black;
         }
     }

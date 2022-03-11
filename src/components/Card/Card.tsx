@@ -4,7 +4,7 @@ import classnames from 'classnames';
 interface cardProps {
     id: string,
     group: 'hearts' | 'clubs' | 'diams' | 'spades',
-    label: string
+    label: 'A' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '10' | 'J' | 'Q' | 'K'
 }
 
 const Card: React.FC<cardProps> = ({
